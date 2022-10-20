@@ -37,6 +37,5 @@ public class Q01 {
         System.out.println("10th: "+percentage10);
         System.out.println("12th: "+percentage12);
         System.out.println("Degree: "+percentageDeg);
-
     }
 }
