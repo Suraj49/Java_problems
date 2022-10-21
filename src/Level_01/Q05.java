@@ -18,7 +18,7 @@ public class Q05 {
         float centimeter=scn.nextFloat();
         float meter=centimeter/100;
         float foot=centimeter/30.48f;
-        System.out.println("In Meter = "+meter+"meter");
-        System.out.println("In Foot = "+foot+"foot");
+        System.out.println("In Meter = "+meter+" meter");
+        System.out.println("In Foot = "+foot+" foot");
     }
 }
