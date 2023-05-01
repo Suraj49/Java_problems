@@ -1,0 +1,73 @@
+class MinAge{
+String mla;
+String factory;
+String governor;
+}
+class ExceptionCheck{
+
+
+public String mlaCheck(MinAge a, int age) {
+try {
+if(age<21) {
+a.mla = "illegal";
+throw new IllegalAgeException("Illegal MLA age");
+}
+else if (age>=25) {
+a.mla = "legal";
+}
+}
+catch(IllegalAgeException e){
+return e.getMessage();
+}
+return a.mla;
+}
+
+
+public String factoryCheck(MinAge a, int age) {
+try {
+if(age<14) {
+a.factory = "illegal";
+throw new IllegalAgeException("Illegal factory age");
+}
+else if (age>=14) {
+a.factory="legal";
+}
+}
+catch(IllegalAgeException e){
+return e.getMessage();
+}
+return a.factory;
+}
+
+
+
+public String governorCheck(MinAge a, int age) {
+try {
+if(age<35) {
+a.governor = "illegal";
+throw new IllegalAgeException("Illegal governor age");
+}
+else if (age>=35) {
+a.governor = "legal";
+}
+}
+catch(IllegalAgeException e){
+return e.getMessage();
+}
+return a.governor;
+}
+}
+
+
+class IllegalAgeException extends Exception{
+public IllegalAgeException(String s){
+super(s);
+}
+}
+
+public class Source {
+ public static void main(String args[]) throws Exception {
+ Scanner s=new Scanner(System.in);
+ int age=s.nextInt();
+ }
+ }

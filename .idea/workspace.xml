@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61744066-d737-4d5d-b650-740fee6a260e" name="Changes" comment="Commits">
-      <change afterPath="$PROJECT_DIR$/src/Level_01/Q21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level_01/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level_01/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Level_01/legal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,9 +41,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q21">
-    <configuration name="Q17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_01.Q17" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_01.A" />
       <module name="Java_Problems" />
       <extension name="coverage">
         <pattern>
@@ -51,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Level_01.Q18" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Level_01.Main" />
       <module name="Java_Problems" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.A" />
         <item itemvalue="Application.Q21" />
         <item itemvalue="Application.Q20" />
         <item itemvalue="Application.Q19" />
-        <item itemvalue="Application.Q18" />
-        <item itemvalue="Application.Q17" />
       </list>
     </recent_temporary>
   </component>
